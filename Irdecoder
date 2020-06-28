@@ -19,6 +19,4 @@ irrecv.resume(); // Receive the next value
 }
 
 }
-First we create an object called irrecv where we specify the pin where the IR receiver is connected.
-Then we create an object called results , from the decode_results class, which will be used by the irrecv object to share the decoded information with our application
-To start the IR receiver, we call the IRrecv mem
+
