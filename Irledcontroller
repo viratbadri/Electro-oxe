@@ -6,10 +6,10 @@ int led2 = 4;
 int led3 = 7;
 int led4 = 8;
 int itsONled[] = {0,0,0,0};
-#define button1 642546947  // code received from button no. 1
-#define button2 761297281  // code received from button no. 2
-#define button3 2280302909 // code received from button no. 3
-#define button4 2463769059
+#define button1 642546947  // for  button no. 1
+#define button2 761297281  // for button no. 2
+#define button3 2280302909 // for button no. 3
+#define button4 2463769059 //for button no.4
 
 IRrecv irrecv(RECV_PIN);
 
