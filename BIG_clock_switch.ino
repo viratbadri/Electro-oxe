@@ -1,17 +1,4 @@
-/*
- The Cuicuit:
-  BUTTON CONNECTIONS
-  
- BUTTON [SELECT] to D8
- BUTTON [UP]     to D9
- BUTTON [DOWN]   to D10
 
-   LCD CONNECTIONS  
- LCD D7 pin to D2
- LCD Vee tied to a pot to control brightness
- LCD Vss and R/W tied to ground
- LCD Vcc to +5V 
- */
 #include <LiquidCrystal.h>
 
 
