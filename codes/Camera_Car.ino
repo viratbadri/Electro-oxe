@@ -7,16 +7,15 @@
 #include <sstream>
 
 struct MOTOR_PINS
-{
-  int pinEn;  
+{  
   int pinIN1;
   int pinIN2;    
 };
 
 std::vector<MOTOR_PINS> motorPins = 
 {
-  {12, 13, 15},  //RIGHT_MOTOR Pins (EnA, IN1, IN2)
-  {12, 14, 2},  //LEFT_MOTOR  Pins (EnB, IN3, IN4)
+  {12, 13},  //RIGHT_MOTOR Pins (IN1, IN2)
+  {14,15},  //LEFT_MOTOR  Pins (IN3, IN4)
 };
 #define LIGHT_PIN 4
 
